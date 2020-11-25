@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator!</title>
+        <meta charset='UTF-8'/>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <h3>Let's do some math!</h3>
+<div id='calculator'>
+        <div style='width: 100%; height: 70px; margin-bottom: 20px; background-color: lightsalmon;'></div>
+        <div id='buttons' style='width: 350px; height: 500px; display: grid; grid-column-gap: 10px; grid-template-columns: repeat(4, 1fr); grid-row-gap: 10px; grid-template-rows: repeat(5, 1fr)'>
+        <button class='button' style='grid-column-start: 1; grid-column-end: 3; grid-row-start: 1;' id="clear">Clear</button>
+        <button class='button' style='grid-column-start: 3; grid-row-start: 1;' id="scissors">/</button>
+        <button class='button' style='grid-column-start: 4; grid-row-start: 1;' id="scissors">X</button>
+        <button class='button' style='grid-column-start: 1; grid-row-start: 2;' id="rock">7</button>
+        <button class='button' style='grid-column-start: 2; grid-row-start: 2;' id="paper">8</button>
+        <button class='button' style='grid-column-start: 3; grid-row-start: 2;' id="scissors">9</button>
+        <button class='button' style='grid-column-start: 4; grid-row-start: 2;' id="scissors">-</button>
+        <button class='button' style='grid-column-start: 1; grid-row-start: 3;' id="rock">4</button>
+        <button class='button' style='grid-column-start: 2; grid-row-start: 3;' id="paper">5</button>
+        <button class='button' style='grid-column-start: 3; grid-row-start: 3;' id="scissors">6</button>
+        <button class='button' style='grid-column-start: 4; grid-row-start: 3;' id="scissors">+</button>
+        <button class='button' style='grid-column-start: 1; grid-row-start: 4;' id="rock">1</button>
+        <button class='button' style='grid-column-start: 2; grid-row-start: 4;' id="paper">2</button>
+        <button class='button' style='grid-column-start: 3; grid-row-start: 4;' id="scissors">3</button>
+        <button class='button' style='grid-column-start: 4; grid-row-start: 4; grid-row-end: 6;' id="scissors">=</button>
+        <button class='button' style='grid-column-start: 1; grid-column-end: 3; grid-row-start: 5;' id="rock">0</button>
+        <button class='button' style='grid-column-start: 3; grid-row-start: 5;' id="scissors">.</button>
+        </div>
+    </div>
+    </body>
+</html>
+<script src='calculator.js'></script>
